@@ -1,104 +1,94 @@
-i<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nirmal Enterprise – Shuttering Contractor</title>
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nirmal Enterprise</title>
 <style>
     body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background: #111;
-        color: #fff;
+        background: #0d0d0d;
+        color: white;
     }
-
     header {
         text-align: center;
-        padding: 25px 10px;
+        padding: 20px 10px;
         background: #000;
-        border-bottom: 2px solid gold;
+        border-bottom: 2px solid #f1c40f;
     }
-
     header img {
-        width: 160px;
+        width: 140px;
         margin-bottom: 10px;
     }
-
-    header h1 {
-        color: gold;
-        margin: 0;
-        font-size: 32px;
-        letter-spacing: 1px;
-    }
-
     nav {
         text-align: center;
         padding: 15px;
-        background: #151515;
+        background: #111;
+        border-bottom: 2px solid #f1c40f;
     }
-
     nav a {
-        color: gold;
         margin: 0 15px;
-        text-decoration: none;
-        font-size: 18px;
-    }
-
-    section {
-        padding: 40px 20px;
-        text-align: center;
-    }
-
-    h2 {
-        color: gold;
-        font-size: 28px;
-    }
-
-    .services, .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 20px;
-    }
-
-    .card {
-        background: #222;
-        padding: 20px;
-        width: 280px;
-        border: 1px solid gold;
-        border-radius: 10px;
-    }
-
-    .gallery img {
-        width: 280px;
-        height: 180px;
-        object-fit: cover;
-        border: 2px solid gold;
-        border-radius: 8px;
-    }
-
-    .whatsapp {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: #25D366;
-        padding: 14px 18px;
-        border-radius: 50px;
-        color: #fff;
+        color: #f1c40f;
         font-size: 18px;
         text-decoration: none;
         font-weight: bold;
     }
+    .section-title {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 40px;
+        color: #f1c40f;
+    }
+    .about, .services, .gallery {
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .gallery-grid img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #f1c40f;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #111;
+        margin-top: 40px;
+        border-top: 2px solid #f1c40f;
+    }
+    .contact-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 25px;
+        background: #25D366;
+        color: white;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
 </style>
 </head>
-
 <body>
 
 <header>
-   <img src="https://drive.google.com/uc?export=view&id=1sqbqXcfPizpVOVTU8C66SD-q5Y1cLfKU^alt="Logo">
+    <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/logo%20(1).png" alt="Logo" />
     <h1>Nirmal Enterprise</h1>
-    <p>Professional Shuttering Contractor</p>
+    <p>Professional Shuttering & Centering Contractor</p>
 </header>
 
 <nav>
@@ -108,41 +98,41 @@ i<html lang="en">
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>We provide premium shuttering and centering services for commercial and residential construction projects with high safety, accuracy, and experience.</p>
+<section id="about" class="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+        We provide premium shuttering and centering services for commercial and residential
+        construction projects with high safety, quality, and experience.
+    </p>
 </section>
 
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="card">Shuttering Work</div>
-        <div class="card">Centering Work</div>
-        <div class="card">Column Shuttering</div>
-        <div class="card">Beam & Slab Shuttering</div>
-        <div class="card">Scaffolding Services</div>
-        <div class="card">Labour Contract</div>
+<section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+    <p>✔ Shuttering Work<br>✔ Centering Work<br>✔ Column, Beam, Slab Work<br>✔ Complete Construction Support</p>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2 class="section-title">Project Gallery</h2>
+
+    <div class="gallery-grid">
+        <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/8f3da240bd6299144c6f98ca8e39d2f3.jpg" />
+        <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/construction-site-sunset_23-2152006125.jpg" />
+        <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/j-p-centering-works-tambaram-west-chennai-centering-work-a217r.jpg" />
+        <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/la-cornice-monolitica-di-una-nuova-casa-in-costruzione-sul-vonn-della-gru-e-il-cielo-blu_220838-127.jpg" />
+        <img src="https://raw.githubusercontent.com/NirmalEnterprise/Ngroup/refs/heads/main/update10.jpg" />
     </div>
 </section>
 
-<section id="gallery">
-    <h2>Project Gallery</h2>
-
-    <div class="gallery">
-        <img src="YOUR_PHOTO_1_URL" alt="">
-        <img src="YOUR_PHOTO_2_URL" alt="">
-        <img src="YOUR_PHOTO_3_URL" alt="">
-    </div>
-
+<section id="contact" class="about">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Call / WhatsApp for Shuttering & Centering Work</p>
+    <a class="contact-btn" href="https://wa.me/918956330327" target="_blank">WhatsApp</a>
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> +91 9151543906</p>
-    <p><strong>Email:</strong> nirmalenterprises@gmail.com</p>
-</section>
-
-<a href="https://wa.me/919151543906" class="whatsapp" target="_blank">WhatsApp</a>
+<footer>
+    © 2025 Nirmal Enterprise — All Rights Reserved
+</footer>
 
 </body>
 </html>
+p
