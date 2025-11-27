@@ -96,7 +96,7 @@
 <body>
 
 <header>
-    <img src="YOUR_LOGO_URL_HERE" alt="Nirmal Enterprise Logo">
+    <img src="<img src="https://drive.google.com/uc?export=view&id=1sqbqXcfPizpVOVTU8C66SD-q5Y1cLfKU" alt="Logo">" alt="Nirmal Enterprise Logo">
     <h1>Nirmal Enterprise</h1>
     <p>Professional Shuttering Contractor</p>
 </header>
