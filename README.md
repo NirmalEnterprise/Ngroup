@@ -101,8 +101,8 @@
 <section id="about" class="about">
     <h2 class="section-title">About Us</h2>
     <p>
-        We provide premium shuttering and centering services for commercial and residential
-        construction projects with high safety, quality, and experience.
+        We Provide Premium Shuttering and Centering Services for Commercial and Residential
+        Construction Projects with High Safety, Quality, and Experience.
     </p>
 </section>
 
