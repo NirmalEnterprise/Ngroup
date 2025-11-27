@@ -1,4 +1,4 @@
-<html lang="en">
+i<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,7 +96,7 @@
 <body>
 
 <header>
-    <img src="https://drive.google.com/uc?export=view&id=1sqbqXcfPizpVOVTU8C66SD-q5Y1cLfKU" alt="Logo">
+   <img src="https://drive.google.com/uc?export=view&id=1sqbqXcfPizpVOVTU8C66SD-q5Y1cLfKU^alt="Logo">
     <h1>Nirmal Enterprise</h1>
     <p>Professional Shuttering Contractor</p>
 </header>
